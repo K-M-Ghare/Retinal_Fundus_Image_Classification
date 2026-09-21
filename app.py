@@ -15,7 +15,7 @@ class_names = [
     "Pathological_Myopia"
 ]
 
-MODEL_PATH = "fundus_model.pth"
+MODEL_PATH = "retinal_fundus_model.pth"
 
 
 #load model
@@ -67,8 +67,6 @@ uploaded_file = st.file_uploader(
     "Upload retinal image",
     type=["jpg", "jpeg", "png"]
 )
-
-
 
 if uploaded_file is not None:
 
