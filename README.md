@@ -36,14 +36,15 @@ Metrics:
 ## Screenshots
 ### Dashboard
 ![Dashboard](screenshots/dash.png)
+![Grad_CAM](screenshots/dash2.png)
 ### Confusion Matrix
 ![Confusion Matrix](screenshots/confusion_matrix.png)
 ### F1 Score distribution
 ![Bar chart](screenshots/f1_score_dist.png)
 
 ## Future Improvements
-- Display attention map for given input to add explainability
-- Add more interactive UI
+- Add a step in the pipeline to reject non fundus images (eg right now a picture of a golden retriever is classified as cataract)
+- Add more interactive UI and better side by side layout
 
 ## Dataset
 https://www.kaggle.com/datasets/gautamrajiitk/retinal-fundus-image-50k
